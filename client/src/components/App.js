@@ -10,6 +10,7 @@ const mapStateToProps = (state) => {
   return {
     profile: state.profile,
     lotes: state.lotes,
+    contacts: state.contacts,
     myInt: state.myInt
   };
 };
